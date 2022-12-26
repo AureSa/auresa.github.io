@@ -4,7 +4,7 @@ body
 {
     
 	/*background-color : navy;*/
-	background-color: lightblue;
+	background-color: white;
 	color : #000000;
 	margin : 0;
     font-family: 'Orbitron', courier, sans-serif;
@@ -46,11 +46,11 @@ li a:hover:not(.active) {
     color: white;
 }
 
-div {
+/* div {
 	margin-left:10%;
 	padding:1px 16px;
 	
-}
+} */
 
 footer {
     margin-left:10%;
@@ -61,3 +61,20 @@ footer {
     height:15%;   /* Height of the footer */
     background:#6cf;
   }
+
+
+.footer-container {
+    display: grid;
+    /* grid-gap: 1rem; Optional */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding: 1rem; Optional */
+}
+
+.column {
+padding: 1rem; /* Optional */
+}
+
+.content_page {
+    margin-left: 10%;
+    padding:1px 16px;
+}
